@@ -1,0 +1,19 @@
+{
+  "name": "g6-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx http-server ./ -c0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@antv/g6": "^4.3.11",
+    "@antv/g6-plugin": "^0.3.11"
+  },
+  "devDependencies": {
+    "http-server": "^13.0.2"
+  }
+}
